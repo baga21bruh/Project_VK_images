@@ -1,0 +1,21 @@
+{
+  "img_size": 224,
+  "brightness_range": [
+    0.7,
+    1.3
+  ],
+  "contrast_range": [
+    0.7,
+    1.3
+  ],
+  "saturation_range": [
+    0.6,
+    1.4
+  ],
+  "target_encoding": "log_restore_coef",
+  "restore_order": [
+    "brightness",
+    "contrast",
+    "saturation"
+  ]
+}
